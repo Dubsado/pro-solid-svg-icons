@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'tree-large';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f7dd';
-var svgPathData = 'M62 169.4L210.6 5.9C214 2.1 218.9 0 224 0s10 2.1 13.4 5.9L386 169.4c3.9 4.2 6 9.8 6 15.5c0 12.7-10.3 23.1-23.1 23.1H344l75.5 105.7c2.9 4.1 4.5 9 4.5 14.1c0 13.4-10.9 24.2-24.2 24.2H368l76.2 122c2.5 4 3.8 8.5 3.8 13.2c0 13.7-11.1 24.9-24.9 24.9H24.9C11.1 512 0 500.9 0 487.1c0-4.7 1.3-9.2 3.8-13.2L80 352H48.2C34.8 352 24 341.1 24 327.8c0-5 1.6-10 4.5-14.1L104 208H79.1C66.3 208 56 197.7 56 184.9c0-5.7 2.1-11.3 6-15.5z';
+var svgPathData = 'M439.6 455.6L349.8 352h36c25.6 0 39.5-29.2 23.2-48.5L314.1 192h44.8c21.3 0 32.9-22.5 19.3-37.3L243.3 8.2c-10-10.9-28.6-10.9-38.6 0L69.9 154.7c-13.6 14.8-2 37.3 19.3 37.3H134L39 303.5C22.7 322.8 36.6 352 62.2 352h36L8.4 455.6c-19 21.9-3.8 56.4 24.7 56.4h381.7c28.6 0 43.7-34.6 24.8-56.4z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

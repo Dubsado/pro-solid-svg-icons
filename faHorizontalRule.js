@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'horizontal-rule';
 var width = 640;
 var height = 512;
-var aliases = [8213];
+var ligatures = [];
 var unicode = 'f86c';
-var svgPathData = 'M0 256c0-17.7 14.3-32 32-32H608c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32z';
+var svgPathData = 'M640 239.87v31.26A15.88 15.88 0 0 1 624.14 287H15.87A15.88 15.88 0 0 1 0 271.13v-31.26A15.88 15.88 0 0 1 15.87 224h608.27A15.88 15.88 0 0 1 640 239.87z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

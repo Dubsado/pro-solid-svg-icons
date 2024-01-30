@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'dice-d4';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f6d0';
-var svgPathData = 'M228.8 .7C235.5 2.8 240 9 240 16V496c0 6.3-3.7 12-9.4 14.6s-12.5 1.6-17.2-2.6L5.4 324c-6.1-5.4-7.2-14.5-2.5-21.2l208-296c4-5.7 11.3-8.2 17.9-6.1zm54.4 0c6.7-2.1 13.9 .3 17.9 6.1l208 296c4.7 6.7 3.6 15.8-2.5 21.2l-208 184c-4.7 4.2-11.4 5.2-17.2 2.6s-9.4-8.3-9.4-14.6V16c0-7 4.5-13.2 11.2-15.3z';
+var svgPathData = 'M225.28 3.34L1.68 309.48C-1 313.15-.4 318.4 3.03 321.3l223.61 188.81c5.3 4.47 13.17.51 13.17-6.64V8.53C239.8.4 229.99-3.1 225.28 3.34zm285.04 306.14L286.72 3.34C282.01-3.1 272.2.4 272.2 8.53v494.94c0 7.15 7.87 11.11 13.17 6.64l223.6-188.81c3.44-2.9 4.04-8.15 1.35-11.82z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

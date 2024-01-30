@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'farm';
 var width = 576;
 var height = 512;
-var aliases = ["barn-silo"];
+var ligatures = [];
 var unicode = 'f864';
-var svgPathData = 'M0 96C0 43 43 0 96 0s96 43 96 96H0zm181.4 32L132.8 246c-3.2 7.7-4.8 16-4.8 24.4V480c0 11.7 3.1 22.6 8.6 32H48c-26.5 0-48-21.5-48-48V128H181.4zM160 480V270.3c0-4.2 .8-8.3 2.4-12.2l48.9-118.7c3-7.4 8.7-13.3 15.9-16.7L354.3 62.5c8.7-4.1 18.7-4.1 27.4 0l127.1 60.2c7.2 3.4 12.9 9.4 15.9 16.7l48.9 118.7c1.6 3.9 2.4 8 2.4 12.2V480c0 17.7-14.3 32-32 32H432V448c0-26.5-21.5-48-48-48H352c-26.5 0-48 21.5-48 48v64H192c-17.7 0-32-14.3-32-32zM320 248v48c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V248c0-13.3-10.7-24-24-24H344c-13.3 0-24 10.7-24 24z';
+var svgPathData = 'M221.5 91.08l.37-.17A111.93 111.93 0 0 0 0 112v400h128V260.54a64.35 64.35 0 0 1 6.76-28.63l55.48-111a64.12 64.12 0 0 1 31.26-29.83zm351.12 155.14l-55.49-111a32 32 0 0 0-15.62-14.93L381 66.76a32 32 0 0 0-26 0l-120.51 53.56a32 32 0 0 0-15.62 14.93l-55.49 111a32.08 32.08 0 0 0-3.38 14.29V512h128v-96h160v96h128V260.54a32.08 32.08 0 0 0-3.38-14.32zM416 320h-96v-96h96z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

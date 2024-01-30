@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'windsock';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f777';
-var svgPathData = 'M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V320h64v8.6c0 20.3 18.7 35.5 38.5 31.3l41.5-8.6V64.7L166.5 56c-19.9-4.1-38.5 11-38.5 31.3V96H64V32zm64 112V272H64V144h64zM272 78V338l96-20V98L272 78zM486.5 293.3c14.8-3.1 25.5-16.2 25.5-31.3V154c0-15.2-10.6-28.2-25.5-31.3L432 111.3V304.7l54.5-11.4z';
+var svgPathData = 'M256 380.6l96-13.7V161.1l-96-13.7v233.2zm-144 20.5l80-11.4V138.3l-80-11.4v274.2zM498.3 182L416 170.3v187.4l82.3-11.8c7.9-1.1 13.7-7.9 13.7-15.8V197.9c0-8-5.9-14.7-13.7-15.9zM56 0C25.1 0 0 25.1 0 56c0 22.3 13.1 41.4 32 50.4V496c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V106.4c18.9-9 32-28.1 32-50.4 0-30.9-25.1-56-56-56z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -1,23 +1,29 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-var source = require('./faTv');
+var prefix = 'fas';
+var iconName = 'tv-alt';
+var width = 640;
+var height = 512;
+var ligatures = [];
+var unicode = 'f8e5';
+var svgPathData = 'M520 448H120a24 24 0 0 0-24 24v16a24 24 0 0 0 24 24h400a24 24 0 0 0 24-24v-16a24 24 0 0 0-24-24zM592 0H48A48 48 0 0 0 0 48v320a48 48 0 0 0 48 48h544a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zm-16 352H64V64h512z';
+
 exports.definition = {
-  prefix: source.prefix,
-  iconName: source.iconName,
+  prefix: prefix,
+  iconName: iconName,
   icon: [
-    source.width,
-    source.height,
-    source.aliases,
-    source.unicode,
-    source.svgPathData
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
   ]};
 
 exports.faTvAlt = exports.definition;
-exports.prefix = source.prefix;
-exports.iconName = source.iconName;
-exports.width = source.width;
-exports.height = source.height;
-exports.ligatures = source.aliases;
-exports.unicode = source.unicode;
-exports.svgPathData = source.svgPathData;
-exports.aliases = source.aliases;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;

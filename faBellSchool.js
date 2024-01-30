@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'bell-school';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f5d5';
-var svgPathData = 'M208 128a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 288A208 208 0 1 0 208 0a208 208 0 1 0 0 416zm48-208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM208 448c-54 0-103.9-17.9-144-48v64c0 26.5 21.5 48 48 48H320h32 40c43.4 0 80.1-28.8 92-68.3c16.6-7.6 28-24.3 28-43.7c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 15.5 7.3 29.2 18.7 38c-8 15.4-24.1 26-42.7 26H352V400c-40.1 30.1-90 48-144 48z';
+var svgPathData = 'M416 208C416 93.12 322.88 0 208 0S0 93.12 0 208s93.12 208 208 208 208-93.12 208-208zm-288 0c0-44.11 35.89-80 80-80s80 35.89 80 80-35.89 80-80 80-80-35.89-80-80zm128 0c0-26.51-21.49-48-48-48s-48 21.49-48 48 21.49 48 48 48 48-21.49 48-48zm208 112c-26.51 0-48 21.49-48 48 0 16.43 8.27 30.89 20.86 39.55C430.78 421.9 416.55 432 400 432h-48v-32.46C311.83 429.82 262.06 448 208 448s-103.83-18.18-144-48.46V480c0 17.67 14.33 32 32 32h224c17.67 0 32-14.33 32-32h48c42.2 0 77.48-29.87 85.98-69.56 15.39-8 26.02-23.9 26.02-42.44 0-26.51-21.49-48-48-48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

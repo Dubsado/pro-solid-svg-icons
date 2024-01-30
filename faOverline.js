@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'overline';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f876';
-var svgPathData = 'M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm192 96a176 176 0 1 0 0 352 176 176 0 1 0 0-352zM336 304a112 112 0 1 1 -224 0 112 112 0 1 1 224 0z';
+var svgPathData = 'M432 0H16A16 16 0 0 0 0 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V16a16 16 0 0 0-16-16zM232.19 128h-16.38A167.81 167.81 0 0 0 48 295.81v48.38A167.81 167.81 0 0 0 215.81 512h16.38A167.81 167.81 0 0 0 400 344.19v-48.38A167.81 167.81 0 0 0 232.19 128zM320 344.19A87.91 87.91 0 0 1 232.19 432h-16.38A87.91 87.91 0 0 1 128 344.19v-48.38A87.91 87.91 0 0 1 215.81 208h16.38A87.91 87.91 0 0 1 320 295.81z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

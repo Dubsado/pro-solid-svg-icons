@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'head-side';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f6e9';
-var svgPathData = 'M0 224.2C0 100.6 100.2 0 224 0h24c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8H448v64c0 35.3-28.7 64-64 64H320v32c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V407.3c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zm352-.2a32 32 0 1 0 0-64 32 32 0 1 0 0 64z';
+var svgPathData = 'M509.21 275c-20.94-47.12-48.44-151.73-73.08-186.75C397.68 33.6 334.56 0 266.09 0H192C85.96 0 0 85.96 0 192c0 56.79 24.8 107.67 64 142.82V512h256v-64h64c35.35 0 64-28.65 64-64v-64h31.96c23.16 0 38.65-23.84 29.25-45zM320 224c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

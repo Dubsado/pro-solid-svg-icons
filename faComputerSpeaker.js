@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'computer-speaker';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8b2';
-var svgPathData = 'M288 432V416H128c-17.7 0-32 14.3-32 32s14.3 32 32 32H304c-10-13.4-16-30-16-48zM64 32C28.7 32 0 60.7 0 96V320c0 35.3 28.7 64 64 64H288V320H64V96H288V80c0-18 6-34.6 16-48H64zm304 0c-26.5 0-48 21.5-48 48V432c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48H368zM544 320a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-160 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm64-192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z';
+var svgPathData = 'M288 416H128a32 32 0 0 0 0 64h176.41A79.24 79.24 0 0 1 288 432zM0 80v256a48 48 0 0 0 48 48h240v-64H64V96h224V80a79.24 79.24 0 0 1 16.41-48H48A48 48 0 0 0 0 80zm592-48H368a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h224a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zM480 96a32 32 0 1 1-32 32 32 32 0 0 1 32-32zm0 320a96 96 0 1 1 96-96 96 96 0 0 1-96 96zm0-160a64 64 0 1 0 64 64 64 64 0 0 0-64-64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

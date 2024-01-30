@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'flute';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8b9';
-var svgPathData = 'M48 160H96V352H48c-26.5 0-48-21.5-48-48V208c0-26.5 21.5-48 48-48zM592 352H128V160H592c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48zM320 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm120-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm72 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z';
+var svgPathData = 'M0 208v96a32 32 0 0 0 32 32h64V176H32a32 32 0 0 0-32 32zm608-32H128v160h480a32 32 0 0 0 32-32v-96a32 32 0 0 0-32-32zM320 280a24 24 0 1 1 24-24 24 24 0 0 1-24 24zm96 0a24 24 0 1 1 24-24 24 24 0 0 1-24 24zm96 0a24 24 0 1 1 24-24 24 24 0 0 1-24 24z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fas';
 var iconName = 'tombstone';
-var width = 448;
+var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f720';
-var svgPathData = 'M32 192C32 86 118 0 224 0S416 86 416 192V416H32V192zM0 480c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM248 120c0-13.3-10.7-24-24-24s-24 10.7-24 24v40H152c-13.3 0-24 10.7-24 24s10.7 24 24 24h48V328c0 13.3 10.7 24 24 24s24-10.7 24-24V208h48c13.3 0 24-10.7 24-24s-10.7-24-24-24H248V120z';
+var svgPathData = 'M496 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h480c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm-48-256C448 85.96 362.04 0 256 0S64 85.96 64 192v224h384V192zm-96-8c0 8.84-7.16 16-16 16h-56v128c0 8.84-7.16 16-16 16h-16c-8.84 0-16-7.16-16-16V200h-56c-8.84 0-16-7.16-16-16v-16c0-8.84 7.16-16 16-16h56v-48c0-8.84 7.16-16 16-16h16c8.84 0 16 7.16 16 16v48h56c8.84 0 16 7.16 16 16v16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

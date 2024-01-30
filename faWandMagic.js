@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'wand-magic';
 var width = 512;
 var height = 512;
-var aliases = ["magic"];
-var unicode = 'f0d0';
-var svgPathData = 'M14.1 463.3c-18.7-18.7-18.7-49.1 0-67.9L395.4 14.1c18.7-18.7 49.1-18.7 67.9 0l34.6 34.6c18.7 18.7 18.7 49.1 0 67.9L116.5 497.9c-18.7 18.7-49.1 18.7-67.9 0L14.1 463.3zM347.6 187.6l105-105L429.4 59.3l-105 105 23.3 23.3z';
+var ligatures = [];
+var unicode = 'f72b';
+var svgPathData = 'M80 160l26.66-53.33L160 80l-53.34-26.67L80 0 53.34 53.34 0 80l53.34 26.67L80 160zm144-64l16-32 32-16-32-16-16-32-16 32-32 16 32 16 16 32zm234.66 245.33L432 288l-26.66 53.33L352 368l53.34 26.67L432 448l26.66-53.33L512 368l-53.34-26.67zM400 192c8.84 0 16-7.16 16-16v-27.96l91.87-101.83c5.72-6.32 5.48-16.02-.55-22.05L487.84 4.69c-6.03-6.03-15.73-6.27-22.05-.55L186.6 256H144c-8.84 0-16 7.16-16 16v36.87L10.53 414.84c-13.57 12.28-14.1 33.42-1.16 46.36l41.43 41.43c12.94 12.94 34.08 12.41 46.36-1.16L376.34 192H400z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

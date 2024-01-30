@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'truck-ramp';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f4e0';
-var svgPathData = 'M640 400V0H416c-35.3 0-64 28.7-64 64V353.8L31.6 441.1c-17.1 4.6-27.1 22.2-22.5 39.3s22.2 27.1 39.3 22.5L416 402.7C417.5 463.3 467 512 528 512c61.9 0 112-50.1 112-112zM528 352a48 48 0 1 1 0 96 48 48 0 1 1 0-96z';
+var svgPathData = 'M384 0c-17.7 0-32 14.3-32 32v323.6L5.9 450c-4.3 1.2-6.8 5.6-5.6 9.8l12.6 46.3c1.2 4.3 5.6 6.8 9.8 5.6l393.7-107.4C418.8 464.1 467.6 512 528 512c61.9 0 112-50.1 112-112V0H384zm144 448c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

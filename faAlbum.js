@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'album';
 var width = 448;
 var height = 512;
-var aliases = [128189];
+var ligatures = [];
 var unicode = 'f89f';
-var svgPathData = 'M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM384 256A160 160 0 1 0 64 256a160 160 0 1 0 320 0zM224 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z';
+var svgPathData = 'M224 224a32 32 0 1 0 32 32 32 32 0 0 0-32-32zM416 32H32A32 32 0 0 0 0 64v384a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32zM224 416a160 160 0 1 1 160-160 160 160 0 0 1-160 160z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

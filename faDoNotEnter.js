@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fas';
 var iconName = 'do-not-enter';
-var width = 512;
+var width = 496;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f5ec';
-var svgPathData = 'M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM96 208H416c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V224c0-8.8 7.2-16 16-16z';
+var svgPathData = 'M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm176 296H72c-8.84 0-16-7.16-16-16v-64c0-8.84 7.16-16 16-16h352c8.84 0 16 7.16 16 16v64c0 8.84-7.16 16-16 16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

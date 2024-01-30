@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'send-backward';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f87f';
-var svgPathData = 'M64 0C28.7 0 0 28.7 0 64V288c0 35.3 28.7 64 64 64h64V224c0-53 43-96 96-96H352V64c0-35.3-28.7-64-64-64H64zM224 224H448V448H224V224zm-64 0V448c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V224c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64z';
+var svgPathData = 'M464,160H208a48,48,0,0,0-48,48V464a48,48,0,0,0,48,48H464a48,48,0,0,0,48-48h0V208A48,48,0,0,0,464,160ZM448,448H224V224H448ZM352,128V48A48,48,0,0,0,304,0H48A48,48,0,0,0,0,48V304a48,48,0,0,0,48,48h80V208a80.09,80.09,0,0,1,80-80Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

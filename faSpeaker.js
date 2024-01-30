@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'speaker';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8df';
-var svgPathData = 'M0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM304 336A112 112 0 1 0 80 336a112 112 0 1 0 224 0zM192 272a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0-112a48 48 0 1 0 0-96 48 48 0 1 0 0 96z';
+var svgPathData = 'M192 272a64 64 0 1 0 64 64 64 64 0 0 0-64-64zM336 0H48A48 48 0 0 0 0 48v416a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zM192 64a48 48 0 1 1-48 48 48 48 0 0 1 48-48zm0 384a112 112 0 1 1 112-112 112 112 0 0 1-112 112z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

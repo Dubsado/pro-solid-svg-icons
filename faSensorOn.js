@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'sensor-on';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e02b';
-var svgPathData = 'M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zm88 0c-13.3 0-24 10.7-24 24V264c0 13.3 10.7 24 24 24s24-10.7 24-24V120c0-13.3-10.7-24-24-24zm96 0c-13.3 0-24 10.7-24 24V264c0 13.3 10.7 24 24 24s24-10.7 24-24V120c0-13.3-10.7-24-24-24zm413.3 12l-48 32c-11 7.4-25.9 4.4-33.3-6.7s-4.4-25.9 6.7-33.3l48-32c11-7.4 25.9-4.4 33.3 6.7s4.4 25.9-6.7 33.3zM536 232h80c13.3 0 24 10.7 24 24s-10.7 24-24 24H536c-13.3 0-24-10.7-24-24s10.7-24 24-24zm13.3 140l48 32c11 7.4 14 22.3 6.7 33.3s-22.3 14-33.3 6.7l-48-32c-11-7.4-14-22.3-6.7-33.3s22.3-14 33.3-6.7z';
+var svgPathData = 'M384,32H64A64,64,0,0,0,0,96V416a64,64,0,0,0,64,64H384a64,64,0,0,0,64-64V96A64,64,0,0,0,384,32ZM96,272a16,16,0,0,1-32,0V112a16,16,0,0,1,32,0Zm64,0a16,16,0,0,1-32,0V112a16,16,0,0,1,32,0Zm64,0a16,16,0,0,1-32,0V112a16,16,0,0,1,32,0Zm392-40H552a24,24,0,0,0,0,48h64a24,24,0,0,0,0-48Zm-80-88a23.87,23.87,0,0,0,13.29-4l48-32a24,24,0,1,0-26.62-39.92l-48,32A24,24,0,0,0,536,144Zm13.29,228A24,24,0,1,0,522.69,412l48,32A24,24,0,1,0,597.31,404Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -1,23 +1,29 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-var source = require('./faWineGlassCrack');
+var prefix = 'fas';
+var iconName = 'fragile';
+var width = 288;
+var height = 512;
+var ligatures = [];
+var unicode = 'f4bb';
+var svgPathData = 'M287.4 192.7l-16-178.1C270.7 6.3 263.9 0 255.7 0h-63.5l30.6 63.7-85.5 56L186.7 224 65.2 104.3l85.5-56L117.9 0H32.3c-8.2 0-15 6.3-15.7 14.6L.6 192.7c-7.2 80 50.7 148.9 127.4 157.6V480H74.1c-24.5 0-33.2 32-20 32h179.8c13.1 0 4.5-32-20-32H160V350.3c76.7-8.8 134.6-77.6 127.4-157.6z';
+
 exports.definition = {
-  prefix: source.prefix,
-  iconName: source.iconName,
+  prefix: prefix,
+  iconName: iconName,
   icon: [
-    source.width,
-    source.height,
-    source.aliases,
-    source.unicode,
-    source.svgPathData
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
   ]};
 
 exports.faFragile = exports.definition;
-exports.prefix = source.prefix;
-exports.iconName = source.iconName;
-exports.width = source.width;
-exports.height = source.height;
-exports.ligatures = source.aliases;
-exports.unicode = source.unicode;
-exports.svgPathData = source.svgPathData;
-exports.aliases = source.aliases;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;

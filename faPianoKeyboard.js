@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'piano-keyboard';
 var width = 576;
 var height = 512;
-var aliases = [127929];
+var ligatures = [];
 var unicode = 'f8d5';
-var svgPathData = 'M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zM512 224V384H432V315.7c9.6-5.5 16-15.9 16-27.7V224h64zM400 384H304V315.7c9.6-5.5 16-15.9 16-27.7V224h64v64c0 11.8 6.4 22.2 16 27.7V384zm-128 0H176V315.7c9.6-5.5 16-15.9 16-27.7V224h64v64c0 11.8 6.4 22.2 16 27.7V384zm-128 0H64V224h64v64c0 11.8 6.4 22.2 16 27.7V384z';
+var svgPathData = 'M544 63H32A32 32 0 0 0 0 95v320a32 32 0 0 0 32 32h512a32 32 0 0 0 32-32V95a32 32 0 0 0-32-32zM144 383H64V223h64v80a16 16 0 0 0 16 16zm128 0h-96v-64a16 16 0 0 0 16-16v-80h64v80a16 16 0 0 0 16 16zm128 0h-96v-64a16 16 0 0 0 16-16v-80h64v80a16 16 0 0 0 16 16zm112 0h-80v-64a16 16 0 0 0 16-16v-80h64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

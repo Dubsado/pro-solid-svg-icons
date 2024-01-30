@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'walker';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f831';
-var svgPathData = 'M194 64H320c17.7 0 32 14.3 32 32v64H145l17.9-71.8C166.5 74 179.3 64 194 64zM352 224V392.6c-19.1 11.1-32 31.7-32 55.4c0 35.3 28.7 64 64 64s64-28.7 64-64c0-23.7-12.9-44.4-32-55.4V96c0-53-43-96-96-96H194c-44.1 0-82.4 30-93.1 72.7L1 472.2c-4.3 17.1 6.1 34.5 23.3 38.8s34.5-6.1 38.8-23.3L129 224H352zm32 208a16 16 0 1 1 0 32 16 16 0 1 1 0-32z';
+var svgPathData = 'M416 392.88V96a96 96 0 0 0-96-96H190.66A95.62 95.62 0 0 0 96 80L.24 487.77a16 16 0 0 0 13 18.51l31.54 5.48a16 16 0 0 0 18.5-13L127.81 224H352v168.88a64 64 0 1 0 64 0zM352 160H142.83l16.26-69.25A31.91 31.91 0 0 1 190.66 64H320a32 32 0 0 1 32 32zm32 304a16 16 0 1 1 16-16 16 16 0 0 1-16 16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

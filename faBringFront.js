@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'bring-front';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f857';
-var svgPathData = 'M64 64h64 32 32 64c0-35.3-28.7-64-64-64H64C28.7 0 0 28.7 0 64V192c0 35.3 28.7 64 64 64h64V192H64V64zM480 448H448 384c0 35.3 28.7 64 64 64H576c35.3 0 64-28.7 64-64V320c0-35.3-28.7-64-64-64H512v64h64V448H512 480zM224 96c-35.3 0-64 28.7-64 64V352c0 35.3 28.7 64 64 64H416c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H224z';
+var svgPathData = 'M480 368V144a48 48 0 0 0-48-48H208a48 48 0 0 0-48 48v224a48 48 0 0 0 48 48h224a48 48 0 0 0 48-48zM64 64h192V32a32 32 0 0 0-32-32H32A32 32 0 0 0 0 32v192a32 32 0 0 0 32 32h96v-64H64zm544 192h-96v64h64v128H384v32a32 32 0 0 0 32 32h192a32 32 0 0 0 32-32V288a32 32 0 0 0-32-32z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

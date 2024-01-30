@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'bread-loaf';
 var width = 640;
 var height = 512;
-var aliases = [127838];
+var ligatures = [];
 var unicode = 'f7eb';
-var svgPathData = 'M0 192C0 64 176 32 240 32s240 32 240 160c0 35.3-28.7 64-64 64V432c0 26.5-21.5 48-48 48H112c-26.5 0-48-21.5-48-48V256c-35.3 0-64-28.7-64-64zM397.4 34.9c-2-.9-4.1-1.9-6.2-2.8c3.1-.1 6-.2 8.8-.2c64 0 240 32 240 160c0 35.3-28.7 64-64 64V432c0 26.5-21.5 48-48 48H432c10-13.4 16-30 16-48V282.5c37.3-13.2 64-48.7 64-90.5c0-82.2-57.6-130.7-114.6-157.1z';
+var svgPathData = 'M480 192c0-88.37-107.45-160-240-160S0 103.63 0 192c0 35.35 26.86 64 60 64h4v192a32 32 0 0 0 32 32h288a32 32 0 0 0 32-32V256h4c33.14 0 60-28.65 60-64zM400 32c-2.43 0-4.78.2-7.19.24C465.2 66.39 512 124.62 512 192c0 42.75-26.92 79.06-64 91.46V448a63.27 63.27 0 0 1-8.9 32H544a32 32 0 0 0 32-32V256h4c33.14 0 60-28.65 60-64 0-88.37-107.45-160-240-160z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

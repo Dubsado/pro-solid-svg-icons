@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'hammer-war';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f6e4';
-var svgPathData = 'M192 0c17.7 0 32 14.3 32 32V50.8L347.3 32.4c9.2-1.4 18.6 1.3 25.6 7.4S384 54.7 384 64V256c0 9.3-4.1 18.2-11.1 24.2s-16.4 8.8-25.6 7.4L196.7 265.1c-3.1-.5-6.3-.5-9.5 0L36.7 287.6c-9.2 1.4-18.6-1.3-25.6-7.4S0 265.3 0 256V64c0-9.3 4.1-18.2 11.1-24.2s16.4-8.8 25.6-7.4L160 50.8V32c0-17.7 14.3-32 32-32zm0 296.7l32 4.8V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V301.5l32-4.8z';
+var svgPathData = 'M346.74 32.44L224 52.9V16c0-8.84-7.16-16-16-16h-32c-8.84 0-16 7.16-16 16v36.9L37.26 32.44C17.76 29.19 0 44.23 0 64.01v191.98c0 19.77 17.76 34.81 37.26 31.56L192 261.77l154.74 25.79C366.25 290.81 384 275.77 384 256V64.01c0-19.78-17.76-34.82-37.26-31.57zM160 299.54V496c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V299.54l-32-5.33-32 5.33z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

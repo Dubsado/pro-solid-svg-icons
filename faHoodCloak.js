@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'hood-cloak';
 var width = 576;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f6ef';
-var svgPathData = 'M432 0H288h0c-9.8 0-66 0-120.2 37.7C111.4 76.9 64 151.8 64 288c0 58.5-14.6 101.6-28.6 129.7c-7 14.1-14 24.5-19 31.1c-2.5 3.3-4.5 5.7-5.7 7.1c-.6 .7-1.1 1.2-1.3 1.4l-.2 .2c-9 9.1-11.7 22.8-6.8 34.7c5 12 16.6 19.8 29.6 19.8h96V320c0-88.4 71.6-160 160-160s160 71.6 160 160V512h96c12.9 0 24.6-7.8 29.6-19.8c4.9-11.9 2.2-25.6-6.8-34.7l0 0 0 0 0 0-.1-.1c-.2-.2-.7-.7-1.3-1.4c-1.3-1.4-3.2-3.8-5.7-7.1c-5-6.6-11.9-17-19-31.1C526.6 389.6 512 346.5 512 288c0-103.1-46.5-172.8-95.8-217.2l32-29c7.3-6.7 9.8-17.2 6.2-26.4S441.9 0 432 0zM416 512V320c0-70.7-57.3-128-128-128s-128 57.3-128 128V512H416z';
+var svgPathData = 'M288.27 192c-70.69 0-128 57.31-128 128v192h256V320c0-70.69-57.3-128-128-128zm281.37 268.84C511.97 383.87 511.97 320 511.97 320h.06v-64c0-84.03-46.37-123.05-101.18-182.7l39.75-39.75C462.99 21.17 454.22 0 436.71 0H287.6C192 0 64.03 109.45 64.03 256v64s0 63.87-57.67 140.84C1.89 466.8-.07 473.48 0 480c.19 16.52 13.46 32 32.33 32h95.94V320c0-88.22 71.78-160 160-160s160 71.78 160 160v192h95.4c18.87 0 32.14-15.48 32.33-32 .07-6.52-1.89-13.2-6.36-19.16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

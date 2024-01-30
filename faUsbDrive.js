@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'usb-drive';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8e9';
-var svgPathData = 'M64 96C28.7 96 0 124.7 0 160V352c0 35.3 28.7 64 64 64H416c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H64zm544 32H480V384H608c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32zM560 232a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm24 72a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z';
+var svgPathData = 'M624 128H480v256h144a16 16 0 0 0 16-16V144a16 16 0 0 0-16-16zm-40 184a16 16 0 0 1-16 16h-16a16 16 0 0 1-16-16v-16a16 16 0 0 1 16-16h16a16 16 0 0 1 16 16zm0-96a16 16 0 0 1-16 16h-16a16 16 0 0 1-16-16v-16a16 16 0 0 1 16-16h16a16 16 0 0 1 16 16zM432 96H64a64 64 0 0 0-64 64v192a64 64 0 0 0 64 64h368a16 16 0 0 0 16-16V112a16 16 0 0 0-16-16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

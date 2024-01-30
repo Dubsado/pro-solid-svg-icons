@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'window-frame-open';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e050';
-var svgPathData = 'M480 224V64c0-35.3-28.7-64-64-64H96C60.7 0 32 28.7 32 64V224v64H96 416h64V224zm-64 0H280V64H416V224zm-184 0H96V64H232V224zM96 448V320H32V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H64 448h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V320H416V448H96z';
+var svgPathData = 'M480,32A32,32,0,0,0,448,0H64A32,32,0,0,0,32,32V288H480ZM240,224H96V64H240Zm176,0H272V64H416Zm80,224H480V320H416V448H96V320H32V448H16A16,16,0,0,0,0,464v32a16,16,0,0,0,16,16H496a16,16,0,0,0,16-16V464A16,16,0,0,0,496,448Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

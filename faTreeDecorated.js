@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'tree-decorated';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f7dc';
-var svgPathData = 'M210.6 5.9L62 169.4c-3.9 4.2-6 9.8-6 15.5C56 197.7 66.3 208 79.1 208H104L28.5 313.7c-2.9 4.1-4.5 9-4.5 14.1C24 341.1 34.8 352 48.2 352H80L3.8 474c-2.5 4-3.8 8.5-3.8 13.2C0 500.9 11.1 512 24.9 512H423.1c13.7 0 24.9-11.1 24.9-24.9c0-4.7-1.3-9.2-3.8-13.2L368 352h31.8c13.4 0 24.2-10.9 24.2-24.2c0-5-1.6-10-4.5-14.1L344 208h24.9c12.7 0 23.1-10.3 23.1-23.1c0-5.7-2.1-11.3-6-15.5L237.4 5.9C234 2.1 229.1 0 224 0s-10 2.1-13.4 5.9zM160 264a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72-104a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm56 232a24 24 0 1 1 0 48 24 24 0 1 1 0-48z';
+var svgPathData = 'M439.6 455.6L349.8 352h36c25.6 0 39.5-29.2 23.2-48.5L314.1 192h44.8c21.3 0 32.9-22.5 19.3-37.3L243.3 8.2c-10-10.9-28.6-10.9-38.6 0L69.9 154.7c-13.6 14.8-2 37.3 19.3 37.3H134L39 303.5C22.7 322.8 36.6 352 62.2 352h36L8.4 455.6c-19 21.9-3.8 56.4 24.7 56.4h381.7c28.6 0 43.7-34.6 24.8-56.4zM160 312c-13.3 0-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24-10.7 24-24 24zm72-152c0-13.3 10.7-24 24-24s24 10.7 24 24-10.7 24-24 24-24-10.7-24-24zm56 280c-13.3 0-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24-10.7 24-24 24z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

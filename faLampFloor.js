@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fas';
 var iconName = 'lamp-floor';
-var width = 640;
+var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e015';
-var svgPathData = 'M194.3 20.1C199.1 8 210.9 0 224 0H416c13.1 0 24.9 8 29.7 20.1l64 160c3.9 9.9 2.7 21-3.2 29.8s-15.9 14.1-26.5 14.1H160c-10.6 0-20.5-5.3-26.5-14.1s-7.2-20-3.2-29.8l64-160zM288 256h64V448h64c17.7 0 32 14.3 32 32s-14.3 32-32 32H320 224c-17.7 0-32-14.3-32-32s14.3-32 32-32h64V256z';
+var svgPathData = 'M256,448H224V255.69H160V448H128c-28.42,0-54.95,18.53-63.3,44.16C61.48,502,69.88,512,80.26,512H303.74c10.38,0,18.78-10,15.56-19.84C311,466.53,284.42,448,256,448ZM381.38,179.4l-68.57-160A32,32,0,0,0,283.39,0H100.61A32,32,0,0,0,71.19,19.4L2.62,179.4A32,32,0,0,0,32,224H352A32,32,0,0,0,381.38,179.4Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

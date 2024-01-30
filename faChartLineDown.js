@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'chart-line-down';
 var width = 512;
 var height = 512;
-var aliases = [128201];
+var ligatures = [];
 var unicode = 'f64d';
-var svgPathData = 'M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm217.4 57.4L208 194.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l80 80c12.5 12.5 32.8 12.5 45.3 0L304 189.3l57.4 57.4L329 279c-15.1 15.1-4.4 41 17 41H456c13.3 0 24-10.7 24-24V185.9c0-21.4-25.9-32.1-41-17l-32.4 32.4-80-80c-12.5-12.5-32.8-12.5-45.3 0z';
+var svgPathData = 'M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm-16-80V185.94c0-21.38-25.85-32.09-40.97-16.97l-32.4 32.4-96-96c-12.5-12.5-32.76-12.5-45.25 0L192 178.75l-46.06-46.06c-6.25-6.25-16.38-6.25-22.63 0l-22.62 22.62c-6.25 6.25-6.25 16.38 0 22.63l68.69 68.69c12.5 12.5 32.76 12.5 45.25 0L288 173.25l73.38 73.38-32.4 32.4c-15.12 15.12-4.41 40.97 16.97 40.97H464c8.84 0 16-7.17 16-16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

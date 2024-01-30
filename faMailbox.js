@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'mailbox';
 var width = 576;
 var height = 512;
-var aliases = [128234];
+var ligatures = [];
 var unicode = 'f813';
-var svgPathData = 'M0 208V384c0 35.3 28.7 64 64 64H224c35.3 0 64-28.7 64-64V208c0-79.5-64.5-144-144-144S0 128.5 0 208zm64 0c0-8.8 7.2-16 16-16H208c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm256 0V384c0 24.6-9.2 47-24.4 64H512c35.3 0 64-28.7 64-64V208c0-79.5-64.5-144-144-144H245.2C290.4 95.9 320 148.5 320 208zm64 0c0-8.8 7.2-16 16-16h64 32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H464c-8.8 0-16-7.2-16-16V224H400c-8.8 0-16-7.2-16-16z';
+var svgPathData = 'M144 64A144 144 0 0 0 0 208v208a32 32 0 0 0 32 32h256V208A144 144 0 0 0 144 64zm80 176a16 16 0 0 1-16 16H80a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h128a16 16 0 0 1 16 16zM432 64H244.87C290.23 95.87 320 148.48 320 208v240h224a32 32 0 0 0 32-32V208A144 144 0 0 0 432 64zm80 208a16 16 0 0 1-16 16h-32a16 16 0 0 1-16-16v-48h-56a8 8 0 0 1-8-8v-16a8 8 0 0 1 8-8h104a16 16 0 0 1 16 16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

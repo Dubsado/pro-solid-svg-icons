@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fas';
 var iconName = 'cabinet-filing';
-var width = 448;
+var width = 512;
 var height = 512;
-var aliases = [128452];
+var ligatures = [];
 var unicode = 'f64b';
-var svgPathData = 'M0 64C0 28.7 28.7 0 64 0H384c35.3 0 64 28.7 64 64V240H0V64zM0 272H448V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V272zM128 128v16c0 8.8 7.2 16 16 16s16-7.2 16-16V128H288v16c0 8.8 7.2 16 16 16s16-7.2 16-16V128c0-17.7-14.3-32-32-32H160c-17.7 0-32 14.3-32 32zm0 256v16c0 8.8 7.2 16 16 16s16-7.2 16-16V384H288v16c0 8.8 7.2 16 16 16s16-7.2 16-16V384c0-17.7-14.3-32-32-32H160c-17.7 0-32 14.3-32 32z';
+var svgPathData = 'M480 0H32C14.33 0 0 14.33 0 32v192h512V32c0-17.67-14.33-32-32-32zM352 152c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24H192v24c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-40c0-8.84 7.16-16 16-16h160c8.84 0 16 7.16 16 16v40zM0 480c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32V256H0v224zm160-112c0-8.84 7.16-16 16-16h160c8.84 0 16 7.16 16 16v40c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24H192v24c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-40z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

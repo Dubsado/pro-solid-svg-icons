@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'mug';
 var width = 576;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f874';
-var svgPathData = 'M64 64C46.3 64 32 78.3 32 96V352c0 53 43 96 96 96H320c53 0 96-43 96-96V320h32c70.7 0 128-57.3 128-128s-57.3-128-128-128H384 64zm352 64h32c35.3 0 64 28.7 64 64s-28.7 64-64 64H416V128z';
+var svgPathData = 'M448 63H56a23.94 23.94 0 0 0-24 24v264a96 96 0 0 0 96 96h192a96 96 0 0 0 96-96v-32h32a128 128 0 0 0 0-256zm0 192h-32V127h32a64 64 0 0 1 0 128z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

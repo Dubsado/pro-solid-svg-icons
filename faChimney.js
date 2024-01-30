@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fas';
 var iconName = 'chimney';
-var width = 448;
+var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f78b';
-var svgPathData = 'M0 64C0 46.3 14.3 32 32 32H416c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V64zM32 192h96V320H32V192zm384 0V320H160V192H416zM288 352V480H32V352H288zm128 0V480H320V352h96z';
+var svgPathData = 'M480 0H32C14.3 0 0 14.3 0 32v128c0 17.7 14.3 32 32 32h448c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32zM32 512h288V384H32v128zm160-160h288V224H192v128zM32 224v128h128V224H32zm320 288h128V384H352v128z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

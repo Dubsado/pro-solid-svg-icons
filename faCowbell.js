@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'cowbell';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8b3';
-var svgPathData = 'M112 96h16V40c0-22.1 17.9-40 40-40H280c22.1 0 40 17.9 40 40V96h16c21.4 0 40.3 14.2 46.2 34.8l64 224c4.1 14.5 1.2 30.1-7.8 42.1s-23.3 19.1-38.3 19.1H48c-15.1 0-29.3-7.1-38.3-19.1s-12-27.6-7.8-42.1l64-224C71.7 110.2 90.6 96 112 96zm160 0V48H176V96h96zm16 352c0 35.3-28.7 64-64 64s-64-28.7-64-64H288z';
+var svgPathData = 'M384.19 122.35A32 32 0 0 0 352.64 96h-16V48a48.1 48.1 0 0 0-48.12-48H160.29a48.1 48.1 0 0 0-48.09 48v48H95.36a32 32 0 0 0-31.55 26.35l-63.3 352A32 32 0 0 0 32.07 512h383.86a32 32 0 0 0 31.56-37.65zM176.32 64h96.17v32h-96.17z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

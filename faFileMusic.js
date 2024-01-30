@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'file-music';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8b6';
-var svgPathData = 'M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zm32 224v32V384c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8V279.1l-96 36V416c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8V304 272c0-6.7 4.1-12.6 10.4-15l128-48c4.9-1.8 10.4-1.2 14.7 1.8s6.9 7.9 6.9 13.2z';
+var svgPathData = 'M224 136V0H24A23.94 23.94 0 0 0 0 24v464a23.94 23.94 0 0 0 24 24h336a23.94 23.94 0 0 0 24-24V160H248a24.08 24.08 0 0 1-24-24zm64 88v160c0 17.67-21.5 32-48 32s-48-14.33-48-32 21.5-32 48-32a69.89 69.89 0 0 1 16 2v-76.36l-96 37.52V416c0 17.67-21.5 32-48 32s-48-14.33-48-32 21.5-32 48-32a69.89 69.89 0 0 1 16 2V271.25A16 16 0 0 1 139.19 256l128-47.25A16 16 0 0 1 288 224zm89-119L279.09 7a24 24 0 0 0-17-7H256v128h128v-6.09a23.91 23.91 0 0 0-7-16.91z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

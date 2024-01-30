@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'flashlight';
 var width = 640;
 var height = 512;
-var aliases = [128294];
+var ligatures = [];
 var unicode = 'f8b8';
-var svgPathData = 'M576 416h32c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H576V416zM544 97.7C449.1 107.9 384 160 384 160H48c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H384s65.1 52.1 160 62.3V97.7zM224 256c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32z';
+var svgPathData = 'M384 160H32a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32h352l16.12 10.75c43.14 28.76 92.62 45.67 143.88 50.89V98.36c-51.26 5.22-100.74 22.13-143.88 50.89zm-96 128h-32a32 32 0 0 1 0-64h32a32 32 0 0 1 0 64zM608 96h-32v320h32a32 32 0 0 0 32-32V128a32 32 0 0 0-32-32z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

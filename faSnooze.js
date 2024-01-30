@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'snooze';
 var width = 448;
 var height = 512;
-var aliases = [128164,"zzz"];
+var ligatures = [];
 var unicode = 'f880';
-var svgPathData = 'M192 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h32l-57.6 76.8c-7.3 9.7-8.4 22.7-3 33.5s16.5 17.7 28.6 17.7h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H256l57.6-76.8c7.3-9.7 8.4-22.7 3-33.5S300.1 0 288 0H192zM320 224c-17.7 0-32 14.3-32 32s14.3 32 32 32h32l-57.6 76.8c-7.3 9.7-8.4 22.7-3 33.5s16.5 17.7 28.6 17.7h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H384l57.6-76.8c7.3-9.7 8.4-22.7 3-33.5S428.1 224 416 224H320zM32 256c-17.7 0-32 14.3-32 32s14.3 32 32 32h91.7L7.4 459.5c-7.9 9.5-9.7 22.8-4.4 34.1S19.6 512 32 512H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H100.3L216.6 308.5c7.9-9.5 9.7-22.8 4.4-34.1s-16.6-18.4-29-18.4H32z';
+var svgPathData = 'M192 224H40a24 24 0 0 0-24 24v48a24 24 0 0 0 24 24h50.44L8.08 412.66A32 32 0 0 0 0 433.92V480a32 32 0 0 0 32 32h152a24 24 0 0 0 24-24v-48a24 24 0 0 0-24-24h-50.44l82.36-92.66a32 32 0 0 0 8.08-21.26V256a32 32 0 0 0-32-32zm0-32h96a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-34.75l57.38-57.38A32 32 0 0 0 320 48V32a32 32 0 0 0-32-32H184a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h42.75l-57.38 57.38A32 32 0 0 0 160 144v16a32 32 0 0 0 32 32zm256 80v-16a32 32 0 0 0-32-32h-96a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h34.75l-57.38 57.38A32 32 0 0 0 288 368v16a32 32 0 0 0 32 32h104a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-42.75l57.38-57.38A32 32 0 0 0 448 272z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

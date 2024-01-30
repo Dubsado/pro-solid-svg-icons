@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'light-switch';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e017';
-var svgPathData = 'M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zm96 96h64c35.3 0 64 28.7 64 64v80H96V160c0-35.3 28.7-64 64-64zM288 272v80c0 35.3-28.7 64-64 64H160c-35.3 0-64-28.7-64-64V272H288zM192 32a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 416a16 16 0 1 1 0 32 16 16 0 1 1 0-32z';
+var svgPathData = 'M320,0H64A64,64,0,0,0,0,64V448a64,64,0,0,0,64,64H320a64,64,0,0,0,64-64V64A64,64,0,0,0,320,0ZM192,32a16,16,0,1,1-16,16A16,16,0,0,1,192,32Zm0,448a16,16,0,1,1,16-16A16,16,0,0,1,192,480Zm96-112a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V272H288Zm0-128H96V144a48,48,0,0,1,48-48h96a48,48,0,0,1,48,48Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

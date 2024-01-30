@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'podium';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f680';
-var svgPathData = 'M182.4 72c8.3 14.3 23.8 24 41.6 24h64c26.5 0 48-21.5 48-48s-21.5-48-48-48H224c-17.8 0-33.3 9.7-41.6 24H168c-48.6 0-88 39.4-88 88v32H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H424c13.3 0 24-10.7 24-24s-10.7-24-24-24H128V112c0-22.1 17.9-40 40-40h14.4zM48 224L73.7 455.1c3.6 32.4 31 56.9 63.6 56.9H310.7c32.6 0 60-24.5 63.6-56.9L400 224H48z';
+var svgPathData = 'M432 144H111.36c6.33-30.9 30.72-55.29 62.71-62.05C182.76 90.63 194.75 96 208 96h64c26.51 0 48-21.49 48-48S298.51 0 272 0h-64c-22.06 0-40.45 14.97-46.07 35.24C109.85 46.85 70.16 90.29 63.35 144H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-32 320h-38.22L384 224H64l22.22 240H48c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h352c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

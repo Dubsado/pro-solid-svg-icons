@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'disc-drive';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8b5';
-var svgPathData = 'M32 96c0-35.3 28.7-64 64-64H416c35.3 0 64 28.7 64 64V416c17.7 0 32 14.3 32 32s-14.3 32-32 32H416 96 32c-17.7 0-32-14.3-32-32s14.3-32 32-32V96zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192 0A160 160 0 1 0 96 256a160 160 0 1 0 320 0z';
+var svgPathData = 'M496 416h-16V96a64 64 0 0 0-64-64H96a64 64 0 0 0-64 64v320H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h480a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm-240 0a160 160 0 1 1 160-160 160 160 0 0 1-160 160zm0-192a32 32 0 1 0 32 32 32 32 0 0 0-32-32z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -1,23 +1,29 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-var source = require('./faCircleCaretDown');
+var prefix = 'fas';
+var iconName = 'caret-circle-down';
+var width = 512;
+var height = 512;
+var ligatures = [];
+var unicode = 'f32d';
+var svgPathData = 'M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-379.5-27.5l123 123c4.7 4.7 12.3 4.7 17 0l123-123c7.6-7.6 2.2-20.5-8.5-20.5H133c-10.7 0-16.1 12.9-8.5 20.5z';
+
 exports.definition = {
-  prefix: source.prefix,
-  iconName: source.iconName,
+  prefix: prefix,
+  iconName: iconName,
   icon: [
-    source.width,
-    source.height,
-    source.aliases,
-    source.unicode,
-    source.svgPathData
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
   ]};
 
 exports.faCaretCircleDown = exports.definition;
-exports.prefix = source.prefix;
-exports.iconName = source.iconName;
-exports.width = source.width;
-exports.height = source.height;
-exports.ligatures = source.aliases;
-exports.unicode = source.unicode;
-exports.svgPathData = source.svgPathData;
-exports.aliases = source.aliases;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;

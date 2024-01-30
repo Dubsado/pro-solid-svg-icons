@@ -1,23 +1,29 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-var source = require('./faSignalBarsFair');
+var prefix = 'fas';
+var iconName = 'signal-alt-2';
+var width = 640;
+var height = 512;
+var ligatures = [];
+var unicode = 'f692';
+var svgPathData = 'M96 384H64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32zm160-128h-32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V288c0-17.67-14.33-32-32-32z';
+
 exports.definition = {
-  prefix: source.prefix,
-  iconName: source.iconName,
+  prefix: prefix,
+  iconName: iconName,
   icon: [
-    source.width,
-    source.height,
-    source.aliases,
-    source.unicode,
-    source.svgPathData
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
   ]};
 
 exports.faSignalAlt2 = exports.definition;
-exports.prefix = source.prefix;
-exports.iconName = source.iconName;
-exports.width = source.width;
-exports.height = source.height;
-exports.ligatures = source.aliases;
-exports.unicode = source.unicode;
-exports.svgPathData = source.svgPathData;
-exports.aliases = source.aliases;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;

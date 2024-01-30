@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'book-user';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f7e7';
-var svgPathData = 'M0 96C0 43 43 0 96 0H384h32c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32v64c17.7 0 32 14.3 32 32s-14.3 32-32 32H384 96c-53 0-96-43-96-96V96zM64 416c0 17.7 14.3 32 32 32H352V384H96c-17.7 0-32 14.3-32 32zM304 128a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM128 304c0 8.8 7.2 16 16 16H336c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H208c-44.2 0-80 35.8-80 80z';
+var svgPathData = 'M448 358.4V25.6c0-16-9.6-25.6-25.6-25.6H96C41.6 0 0 41.6 0 96v320c0 54.4 41.6 96 96 96h326.4c12.8 0 25.6-9.6 25.6-25.6v-16q0-9.6-9.6-19.2c-3.2-16-3.2-60.8 0-73.6q9.6-4.8 9.6-19.2zM240 64a64 64 0 1 1-64 64 64 64 0 0 1 64-64zM128 281.6c0-31.81 30.09-57.6 67.2-57.6h5a103.25 103.25 0 0 0 79.7 0h4.95c37.11 0 67.2 25.79 67.2 57.6v19.2c0 10.61-10 19.2-22.4 19.2H150.4c-12.4 0-22.4-8.6-22.4-19.2zM380.8 448H96c-19.2 0-32-12.8-32-32s16-32 32-32h284.8z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

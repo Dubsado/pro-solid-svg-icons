@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fas';
 var iconName = 'line-height';
-var width = 576;
+var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f871';
-var svgPathData = 'M118.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l9.4-9.4V370.7l-9.4-9.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-9.4 9.4V141.3l9.4 9.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-64-64zM288 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H544c17.7 0 32-14.3 32-32s-14.3-32-32-32H288zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H544c17.7 0 32-14.3 32-32s-14.3-32-32-32H288zM256 416c0 17.7 14.3 32 32 32H544c17.7 0 32-14.3 32-32s-14.3-32-32-32H288c-17.7 0-32 14.3-32 32z';
+var svgPathData = 'M626.29 224H269.71c-7.57 0-13.71 7.16-13.71 16v32c0 8.84 6.14 16 13.71 16h356.58c7.57 0 13.71-7.16 13.71-16v-32c0-8.84-6.14-16-13.71-16zm0 160H269.71c-7.57 0-13.71 7.16-13.71 16v32c0 8.84 6.14 16 13.71 16h356.58c7.57 0 13.71-7.16 13.71-16v-32c0-8.84-6.14-16-13.71-16zm0-320H269.71C262.14 64 256 71.16 256 80v32c0 8.84 6.14 16 13.71 16h356.58c7.57 0 13.71-7.16 13.71-16V80c0-8.84-6.14-16-13.71-16zM176 144c14.31 0 21.33-17.31 11.31-27.31l-80-80a16 16 0 0 0-22.62 0l-80 80C-4.64 126 .36 144 16 144h48v224H16c-14.29 0-21.31 17.31-11.29 27.31l80 80a16 16 0 0 0 22.62 0l80-80C196.64 386 191.64 368 176 368h-48V144z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'garage';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e009';
-var svgPathData = 'M0 171.3V488c0 13.3 10.7 24 24 24H72c13.3 0 24-10.7 24-24V224c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32V488c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V171.3c0-26.2-15.9-49.7-40.2-59.4L331.9 4.8c-7.6-3.1-16.1-3.1-23.8 0L40.2 111.9C15.9 121.6 0 145.2 0 171.3zM128 224v96H512V224H128zm0 128V512H512V352H128zm128 80c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16s-7.2 16-16 16H272c-8.8 0-16-7.2-16-16z';
+var svgPathData = 'M128,512H512V352H128.11Zm144-96h96a16,16,0,0,1,0,32H272a16,16,0,0,1,0-32ZM128,320H511.47l.53-96H128S128,320,128,320ZM610.5,117,338.41,3.67A57.4,57.4,0,0,0,320,0,57.4,57.4,0,0,0,301.5,3.67L29.5,117A48.11,48.11,0,0,0,0,161.28V496a16,16,0,0,0,16,16H80a16,16,0,0,0,16-16V224c0-17.59,14.59-32,32.59-32H511.41c18,0,32.59,14.41,32.59,32V496a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16V161.28A48.11,48.11,0,0,0,610.5,117Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

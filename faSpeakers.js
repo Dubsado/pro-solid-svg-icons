@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'speakers';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8e0';
-var svgPathData = 'M64 0H280.4C265.2 17 256 39.4 256 64V257.6c-20.3-20.7-48.7-33.6-80-33.6c-61.9 0-112 50.1-112 112s50.1 112 112 112c31.3 0 59.7-12.9 80-33.6V448c0 24.6 9.2 47 24.4 64H64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0zM320 503.4c-19.1-11.1-32-31.7-32-55.4V336 64c0-23.7 12.9-44.4 32-55.4C329.4 3.1 340.3 0 352 0H576c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H352c-11.7 0-22.6-3.1-32-8.6zM352 336a112 112 0 1 0 224 0 112 112 0 1 0 -224 0zM176 272a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0-112a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM400 336a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM512 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z';
+var svgPathData = 'M591 0H335a48 48 0 0 0-48 48v416a48 48 0 0 0 48 48h256a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zM463 64a48 48 0 1 1-48 48 48 48 0 0 1 48-48zm0 384a112 112 0 1 1 112-112 112 112 0 0 1-112 112zm0-176a64 64 0 1 0 64 64 64 64 0 0 0-64-64zM255 48a79.24 79.24 0 0 1 16.41-48H47A48 48 0 0 0-1 48v416a48 48 0 0 0 48 48h224.41A79.24 79.24 0 0 1 255 464v-49.78a112 112 0 1 1 0-156.44zm-80 112a48 48 0 1 1 48-48 48 48 0 0 1-48 48zm-64 176a64 64 0 1 0 64-64 64 64 0 0 0-64 64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'booth-curtain';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f734';
-var svgPathData = 'M64 0C28.7 0 0 28.7 0 64V480c0 17.7 14.3 32 32 32s32-14.3 32-32V64l64 0V0H64zM512 64c0-35.3-28.7-64-64-64H352 256 192c-17.7 0-32 14.3-32 32V400c0 26.5 21.5 48 48 48s48-21.5 48-48c0 26.5 21.5 48 48 48s48-21.5 48-48c0 26.5 21.5 48 48 48s48-21.5 48-48v80c0 17.7 14.3 32 32 32s32-14.3 32-32V64z';
+var svgPathData = 'M480 0h-32v496c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V32c0-17.7-14.3-32-32-32zM0 32v464c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V64h32V0H32C14.3 0 0 14.3 0 32zM416 0H128v400c0 26.5 21.5 48 48 48 14.7 0 27.9-6.6 36.7-17 5.7-6.8 16.9-6.8 22.6 0 8.8 10.4 22 17 36.7 17s27.9-6.6 36.7-17c5.7-6.8 16.9-6.8 22.6 0 8.8 10.4 22 17 36.7 17 26.5 0 48-21.5 48-48V0z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;
